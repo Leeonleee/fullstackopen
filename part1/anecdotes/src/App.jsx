@@ -40,7 +40,7 @@ const App = () => {
     copy[selected] += 1
     setVotes(copy)
   }
-
+  
   const maxVotesIndex = votes.indexOf(Math.max(...votes))
 
   return (
