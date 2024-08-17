@@ -1,0 +1,11 @@
+const NameDisplay = ({ persons }) => {
+    return (
+        <>
+          {persons.map((person) => (
+            <li key={person.name}>{person.name} {person.number}</li>
+          ))}  
+        </>
+    )
+  }
+
+export default NameDisplay
